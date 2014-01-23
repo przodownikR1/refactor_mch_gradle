@@ -1,0 +1,41 @@
+/**
+ * The MIT License
+ * Copyright (C) 2013-2013 Slawomir Borowiec
+ */
+
+package pl.java.przodownik.annotation;
+
+
+/**
+ * @author Sławomir Borowiec 
+ * Module name : refactor_mch
+ * Creating time :  22 gru 2013 23:47:54
+ 
+ */
+public enum Mechanics {
+    MANUAL, 
+    CHANGE_METHOD_SIGNATURE,
+    EXTRACT_LOCAL_VARIABLE,
+    EXTRACT_CONSTANTS,
+    INLINE,
+    EXTRACT_SUPERCLASS,
+    EXTRACT_INTERFACE,
+    USE_SUPER_TYPES_WHERE_POSSIBLE,
+    GENERIC_NATURE,
+    PUSH_DOWN,
+    PULL_UP,
+    EXTRACT_CLASS,
+    INDRODUCE_PARAMETER_OBJECT,
+    INDRODUCE_INDIRECTION,
+    INDRODUCE_FACTORY, 
+    INDRODUCE_PARAMETER,
+    ENCAPSULATE_FIELD,
+    GENERALIZE_DECLARED_TYPE,
+    INFER_GENERIC_TYPE_ARGUMENTS,
+    MIGRATE_JAR,
+    CREATE_SNIPPET,
+    CREATE_SCRIPT,
+    USE_GOF_PATTERN,
+    USE_EAI_PATTERN,
+    USE_ENTERPRISE_PATTERN
+}
